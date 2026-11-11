@@ -1,6 +1,6 @@
 # Vier
 
-Vier is four in a row for iPhone and Apple Watch: drop red discs into a seven-by-six board against yellow, and line up four across, down or diagonally first. The opponent is the device itself, and the watch app runs on its own, without the iPhone nearby. Vier has no account, no network, no ads and no analytics. It opens straight into a game, picks up where it left off, and has an Easy level built for beginners.
+Vier is four in a row for iPhone and Apple Watch: drop red discs into a seven-by-six board against yellow, and line up four across, down or diagonally first. The opponent is the device itself, and the watch app runs on its own, without the iPhone nearby. Vier has no account, no network, no ads and no analytics. It opens straight into a game, picks up where it left off, and has an Easy level built for beginners. Its Linux desktop port is [vier-desktop](https://github.com/excelano/vier-desktop).
 
 ## Playing
 
@@ -22,7 +22,7 @@ The computer opponent is a negamax search with alpha-beta pruning in `Shared/Eng
 
 ## Privacy
 
-Vier makes no network connection. On each device it keeps the chosen difficulty, whether one or two players are at the board, the game in progress and who moves first next, and nothing else. The full statement is at [excelano.com/legal/#vier](https://excelano.com/legal/#vier).
+Vier makes no network connection. [SECURITY.md](SECURITY.md) says what it keeps on each device, and the full statement is at [excelano.com/legal/#vier](https://excelano.com/legal/#vier).
 
 ## License
 
