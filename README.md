@@ -14,7 +14,7 @@ The iPhone and the watch each keep their own settings and their own game; nothin
 
 ## Building
 
-Open `Vier.xcodeproj` in Xcode. The `Vier` scheme builds the iPhone app with the watch app embedded, and is the one a release archives. The `Vier Watch App` scheme builds the watch app alone for a watch or the simulator and runs the tests.
+Vier is distributed as source rather than through the App Store. Open `Vier.xcodeproj` in Xcode and set your own team in `Config/Vier.xcconfig`. The `Vier` scheme builds the iPhone app with the watch app embedded. The `Vier Watch App` scheme builds the watch app alone for a watch or the simulator and runs the tests.
 
 Nearly all the code lives in `Shared/`, which both apps compile; `#if os(watchOS)` marks what only the watch does, chiefly the Digital Crown. `Vier/` and `Vier Watch App/` hold each app's icon and the code that plays its haptics. The identity a fork changes, meaning the team id, the bundle ids and the display name, lives in `Config/Vier.xcconfig`, and the version in `Config/Version.xcconfig`. The project has no dependencies beyond Apple's frameworks.
 
