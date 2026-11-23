@@ -24,6 +24,13 @@ The computer opponent is a negamax search with alpha-beta pruning in `Shared/Eng
 
 Vier makes no network connection. [SECURITY.md](SECURITY.md) says what it keeps on each device, and the full statement is at [excelano.com/legal/#vier](https://excelano.com/legal/#vier).
 
+> [!WARNING]
+> Don't submit Vier, or a copy of it under another name, to the App Store. Apple's
+> App Review Guideline 4.3 treats copies of other apps as spam, and a 4.3
+> finding can flag the developer account that submitted it, so that every app
+> the account sends afterwards is flagged too. Build it for your own devices and keep
+> it there.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
